@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.home-head {
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 3%;
+}
+
+.author-head {
+    font-size: 30px;
+}
+.home-list {
+    font-size: 25px;
+    padding-left: 3%;
+}
+
+.address {
+    font-size: 30px;
+    padding-left: 3%;
+}
+.content-division {
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+}
+
+.link {
+    box-sizing: border-box;
+    float: left;
+    background-color: lightblue;
+    padding: 10px;
+    width: 40%;
+    height: 100vh;
+    border-left: 2px solid;
+}
+
+.nav {
+    color: inherit; 
+    text-decoration: none;
+    border: solid 3px;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+#content-head {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-form {
+    border: solid 3px;
+    width: auto;
+}
+
+#table-head {
+    text-align: center;
+}
+th, td {
+    border: none;
+    padding: 8px;
+    text-align:left;
+    font-size: 25px;
+}
+
+.td-form-label {
+    font-size: 20px;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    width: 40%;
+}
+
+#label-comments {
+    vertical-align: top;
+}
+.td-form-input {
+    border: none;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#col-name {
+    width: 35%;
+}
+
+#content-form {
+    margin: auto;
+    width: 55%;
+}
+
+input {
+    width: 95%;
+    height: 20px;
+    border: solid 2px;
+}
+
+#input-comments {
+    height: 100px;
+}
